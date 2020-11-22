@@ -115,3 +115,48 @@ h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+/**  Tools to help  **/
+.tools-to-help {
+    padding: 120px 0;
+}
+
+.tools-to-help h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.tools-cards-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.tool-card {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    padding: 40px 18px;
+    border-radius: 4px;
+}
+
+.tool-card img {
+    max-width: 38px;
+    height: auto;
+}
+
+.tool-card h3 {
+    font-size: 20px;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-family: "IBM Plex Sans", Arial, sans-serif;
+    color: #343434;
+    margin: 20px 0;
+}
+
+.tool-card-text {
+    font-size: 15px;
+    color: #7e7e7e;
+    max-width: 92%;
+    margin: 0 auto;
+}
