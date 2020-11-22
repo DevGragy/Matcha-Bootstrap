@@ -1,8 +1,8 @@
-.btn-success {
-    background-color: #025157;
+/**  Globales  **/
+body {
+    font-family: "IBM Plex Sans", Arial, sans-serif;
 }
 
-/**  Globales  **/
 h1 {
     color: #025157;
 }
@@ -25,6 +25,10 @@ h2 {
 
 .btn-full-size {
     width: 100%;
+}
+
+.btn-success {
+    background-color: #025157;
 }
 
 /**  Header  **/
@@ -64,4 +68,50 @@ h2 {
 
 .logos-cont img:last-child {
     margin-right: 0;
+}
+
+/**  Top Features **/
+.features {
+    padding: 120px 0;
+}
+
+.features h2 {
+    font-size: 55px;
+}
+
+.features p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cont-feature img {
+    overflow: hidden;
+    border-radius: 9px;
+    display: inline-block;
+    border: 1px solid #dadada;
+    -webkit-box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.features .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+.cont-feature a {
+    text-decoration: none;
+    color: #343434;
+    transition: all 0.2s ease-in-out;
+}
+
+.cont-feature a:hover {
+    color: #6abf4b;
+}
+
+.cont-feature h3 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
