@@ -31,6 +31,10 @@ h2 {
     background-color: #025157;
 }
 
+.wd-100 {
+    width: 100%;
+}
+
 /**  Header  **/
 
 .header-matcha {
@@ -159,4 +163,26 @@ h2 {
     color: #7e7e7e;
     max-width: 92%;
     margin: 0 auto;
+}
+
+/**  Customers  **/
+.customers {
+    padding: 120px 0;
+}
+
+.customers-text h2 {
+    font-size: 55px;
+}
+
+.carousel-item a {
+    text-decoration: none;
+    color: #343434;
+}
+
+.carousel-item h5 {
+    color: #025157;
+}
+
+.card-img-top {
+    height: 250px;
 }
